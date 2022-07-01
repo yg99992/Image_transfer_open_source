@@ -3,3 +3,6 @@
 
 详细讲解见微信公众号或知乎账号**IC设计者笔记**
 `https://zhuanlan.zhihu.com/p/511452931`
+
+备用下载链接：
+链接：`https://share.weiyun.com/89RqzOmh` 密码：`4tfxmh`
