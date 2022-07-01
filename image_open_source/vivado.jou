@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jun  3 12:17:45 2022
+# Process ID: 23308
+# Current directory: C:/01_FPGA_project/Image_sensor/Image_transfer_open_source/image_open_source
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13256 C:\01_FPGA_project\Image_sensor\Image_transfer_open_source\image_open_source\image_open_source.xpr
+# Log file: C:/01_FPGA_project/Image_sensor/Image_transfer_open_source/image_open_source/vivado.log
+# Journal file: C:/01_FPGA_project/Image_sensor/Image_transfer_open_source/image_open_source\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/01_FPGA_project/Image_sensor/Image_transfer_open_source/image_open_source/image_open_source.xpr
+update_compile_order -fileset sources_1
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE {} [get_runs impl_1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

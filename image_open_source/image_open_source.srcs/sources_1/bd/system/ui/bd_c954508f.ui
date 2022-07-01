@@ -1,0 +1,67 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port clk_10M -pg 1 -y 720 -defaultsOSRD
+preplace port ocompclk -pg 1 -y 830 -defaultsOSRD
+preplace port mdd1 -pg 1 -y 620 -defaultsOSRD
+preplace port Enb1 -pg 1 -y 700 -defaultsOSRD
+preplace port DDR -pg 1 -y 360 -defaultsOSRD
+preplace port Cstart -pg 1 -y 520 -defaultsOSRD
+preplace port ocompclk1 -pg 1 -y 760 -defaultsOSRD
+preplace port Cstart1 -pg 1 -y 540 -defaultsOSRD
+preplace port Frame_done -pg 1 -y 400 -defaultsOSRD
+preplace port ipor1 -pg 1 -y 500 -defaultsOSRD
+preplace port oisadc1 -pg 1 -y 780 -defaultsOSRD
+preplace port ipor -pg 1 -y 480 -defaultsOSRD
+preplace port mdd -pg 1 -y 600 -defaultsOSRD
+preplace port Expo_Ctrl -pg 1 -y 640 -defaultsOSRD
+preplace port pl_clk -pg 1 -y 20 -defaultsOSRD
+preplace port Expo_Ctrl1 -pg 1 -y 660 -defaultsOSRD
+preplace port Expo_start -pg 1 -y 440 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 380 -defaultsOSRD
+preplace port Frame_done1 -pg 1 -y 420 -defaultsOSRD
+preplace port oisadc -pg 1 -y 850 -defaultsOSRD
+preplace port clk_10M1 -pg 1 -y 740 -defaultsOSRD
+preplace port Expo_start1 -pg 1 -y 460 -defaultsOSRD
+preplace port Enb -pg 1 -y 680 -defaultsOSRD
+preplace portBus Pod1 -pg 1 -y 800 -defaultsOSRD
+preplace portBus Mode -pg 1 -y 330 -defaultsOSRD
+preplace portBus sensor_out -pg 1 -y 810 -defaultsOSRD
+preplace portBus Mode1 -pg 1 -y 310 -defaultsOSRD
+preplace portBus Pod -pg 1 -y 790 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 1 -y 700 -defaultsOSRD
+preplace inst image_ctl_0 -pg 1 -lvl 3 -y 560 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 180 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 450 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 3 NJ 360 930J 350 1320J
+preplace netloc Pod_1 1 0 4 NJ 790 NJ 790 970 790 1310J
+preplace netloc image_ctl_0_mdd 1 3 1 1290
+preplace netloc image_ctl_0_Expo_Ctrl 1 3 1 1290
+preplace netloc processing_system7_0_axi_periph_M03_AXI 1 2 1 970
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 500
+preplace netloc ocompclk_1 1 0 4 NJ 830 500J 760 950 760 NJ
+preplace netloc image_ctl_0_Enb 1 3 1 1290
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 20 610 490
+preplace netloc image_ctl_0_Expo_start 1 3 1 1320
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 1 2 530 630 NJ
+preplace netloc image_ctl_0_Mode 1 3 1 1310
+preplace netloc image_ctl_0_ipor 1 3 1 1320
+preplace netloc image_ctl_0_Cstart 1 3 1 1320
+preplace netloc image_ctl_0_Frame_done 1 3 1 1320
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 380 NJ 380 NJ
+preplace netloc oisadc_1 1 0 4 20J 800 530J 780 960 780 NJ
+preplace netloc sensor_out_1 1 0 3 0J 600 540J 590 NJ
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 1 1 510
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 10 310 540 480 940
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 2 20 590 500
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 3 520J 510 930 370 1300J
+levelinfo -pg 1 -20 260 800 1158 1340 -top 0 -bot 1250
+",
+}
+{
+   da_axi4_cnt: "18",
+   da_board_cnt: "3",
+   da_clkrst_cnt: "1",
+   da_ps7_cnt: "1",
+}

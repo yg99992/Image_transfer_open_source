@@ -1,0 +1,40 @@
+06:28:55 **** Build of configuration Debug for project Image_transfer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Image_transfer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Image_transfer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Image_transfer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/lwip_app.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lwip_app.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Image_transfer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lwip_app.d" -MT"src/lwip_app.o" -o "src/lwip_app.o" "../src/lwip_app.c"
+../src/lwip_app.c: In function 'lwip_loop':
+../src/lwip_app.c:142:6: warning: unused variable 'index' [-Wunused-variable]
+  int index;
+      ^~~~~
+'Finished building: ../src/lwip_app.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Image_transfer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:42:0:
+../src/vdma.h:5:22: fatal error: xaxivdma.h: No such file or directory
+ #include "xaxivdma.h"
+                      ^
+compilation terminated.
+make: *** [src/main.o] ´íÎó 1
+
+06:29:02 Build Finished (took 7s.99ms)
+

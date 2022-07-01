@@ -1,0 +1,80 @@
+09:19:48 **** Build of configuration Debug for project lwip_double_video ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/i2c/PS_i2c.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c/PS_i2c.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lwip_double_video_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/i2c/PS_i2c.d" -MT"src/i2c/PS_i2c.o" -o "src/i2c/PS_i2c.o" "../src/i2c/PS_i2c.c"
+'Finished building: ../src/i2c/PS_i2c.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lwip_double_video_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lwip_double_video_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/lwip_app.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lwip_app.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lwip_double_video_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lwip_app.d" -MT"src/lwip_app.o" -o "src/lwip_app.o" "../src/lwip_app.c"
+'Finished building: ../src/lwip_app.c'
+' '
+'Building file: ../src/ov5640.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lwip_double_video_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ov5640.d" -MT"src/ov5640.o" -o "src/ov5640.o" "../src/ov5640.c"
+'Finished building: ../src/ov5640.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lwip_double_video_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/vdma.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lwip_double_video_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vdma.d" -MT"src/vdma.o" -o "src/vdma.o" "../src/vdma.c"
+'Finished building: ../src/vdma.c'
+' '
+'Building file: ../src/zynq_interrupt.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zynq_interrupt.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lwip_double_video_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zynq_interrupt.d" -MT"src/zynq_interrupt.o" -o "src/zynq_interrupt.o" "../src/zynq_interrupt.c"
+'Finished building: ../src/zynq_interrupt.c'
+' '
+'Building target: lwip_double_video.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lwip_double_video_bsp/ps7_cortexa9_0/lib -o "lwip_double_video.elf"  ./src/i2c/PS_i2c.o  ./src/display_demo.o ./src/echo.o ./src/lwip_app.o ./src/ov5640.o ./src/platform.o ./src/platform_zynq.o ./src/vdma.o ./src/zynq_interrupt.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/echo.o: In function `transfer_data':
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:66: undefined reference to `pbuf_free'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:70: undefined reference to `pbuf_alloc'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:83: undefined reference to `udp_sendto'
+./src/echo.o: In function `sendpic':
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:108: undefined reference to `pbuf_alloc'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:118: undefined reference to `udp_sendto'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:119: undefined reference to `pbuf_free'
+./src/echo.o: In function `udp_recive':
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:218: undefined reference to `pbuf_free'
+./src/echo.o: In function `start_udp8080':
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:230: undefined reference to `udp_new'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:236: undefined reference to `ip_addr_any'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:236: undefined reference to `ip_addr_any'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:236: undefined reference to `udp_bind'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/echo.c:242: undefined reference to `udp_recv'
+./src/lwip_app.o: In function `lwip_loop':
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/lwip_app.c:82: undefined reference to `lwip_init'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/lwip_app.c:85: undefined reference to `xemac_add'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/lwip_app.c:89: undefined reference to `netif_set_default'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/lwip_app.c:95: undefined reference to `netif_set_up'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/lwip_app.c:102: undefined reference to `dhcp_start'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/lwip_app.c:106: undefined reference to `xemacif_input'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/lwip_app.c:133: undefined reference to `xemacif_input'
+./src/platform_zynq.o: In function `timer_callback':
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/platform_zynq.c:115: undefined reference to `dhcp_fine_tmr'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/platform_zynq.c:117: undefined reference to `dhcp_coarse_tmr'
+D:\FPGA_project\Image_sensor\Image_lwip\project_1\project_1.sdk\lwip_double_video\Debug/../src/platform_zynq.c:133: undefined reference to `xemacpsif_resetrx_on_no_rxdata'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lwip_double_video.elf] ´íÎó 1
+
+09:20:13 Build Finished (took 24s.655ms)
+

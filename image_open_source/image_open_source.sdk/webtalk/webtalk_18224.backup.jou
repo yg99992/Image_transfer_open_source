@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Sun Aug 30 22:29:50 2020
+# Process ID: 18224
+# Current directory: C:/Users/cyxu/Documents/04_FPGA_project/Image_sensor/MDD_test_code_0805/project_1_7_9/project_1.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/cyxu/Documents/04_FPGA_project/Image_sensor/MDD_test_code_0805/project_1_7_9/project_1.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/cyxu/Documents/04_FPGA_project/Image_sensor/MDD_test_code_0805/project_1_7_9/project_1.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
