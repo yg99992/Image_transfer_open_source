@@ -12,8 +12,6 @@ On the side of upper computer, a python PUI is designed to receive and show the 
 详细讲解见微信公众号或知乎账号**IC设计者笔记**
 `https://zhuanlan.zhihu.com/p/511452931`
 
-备用下载链接：
-链接：`https://share.weiyun.com/89RqzOmh` 密码：`4tfxmh`
 
 本项目已经被发布到 [zenodo](https://zenodo.org/record/7830330#.ZDoNzegRWHs)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7830330.svg)](https://doi.org/10.5281/zenodo.7830330)
